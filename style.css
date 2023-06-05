@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+      background-color: rgb(13, 13, 44);
+      color: aliceblue;
+      text-align: center;
+      display: flex;  
+  }
+  
+  #clock{
+      border: white solid 2px;
+      border-radius: 20px;
+      width: 300px;
+      height: 60px;
+      position: absolute;
+      top: 57%;
+      left: 40%;   
+  }
+  
+  #hour, #colon, #min, #sec, #period{
+      display: inline-block;
+      font-size:3em;
+  }
+  
+  .text{
+      position: absolute;
+      top: 40%;
+      left: 41%;
+      font-size: 2em;
+  
+  }
+  
+  @media only screen and (max-width:600px){
+    #clock{
+        margin-left: -120px;
+        
+    }
+    .text{
+        margin-left: -110px;
+    }
+  }
+  
+  
+  
+  
+    
